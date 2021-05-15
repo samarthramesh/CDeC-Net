@@ -23,6 +23,7 @@ def main():
     # show the results
     print(type(result))
     print(result)
+    print("Hello World")
     show_result_pyplot(model, args.img, result, score_thr=args.score-thr, output_img=args.output-img)
 
 
