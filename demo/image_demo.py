@@ -21,9 +21,10 @@ def main():
     # test a single image
     result = inference_detector(model, args.img)
     # show the results
-    show_result_pyplot(model, args.img, result, score_thr=args.score-thr, output_img=args.output-img)
     print(type(result))
     print(result)
+    show_result_pyplot(model, args.img, result, score_thr=args.score-thr, output_img=args.output-img)
+
 
 
 if __name__ == '__main__':
